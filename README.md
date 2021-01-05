@@ -6,4 +6,8 @@ I recently attempted to typeset runic characters in a revision for a paper on ar
 
 To fix this, I modified the `allrunes` source, removing the compatibility issues, and rebuilt it. This repository contains the resulting .sty file, so you don't have to do this.
 
-To make the fix, all you have to do is drop allrunes.sty into your LaTeX project, and import `allrunes` as normal. This can be done painlessly in Overleaf, for example. The project should also build on arXiv without issue.
+To make the fix, all you have to do is drop allrunes.sty into your LaTeX project, and import `allrunes` as normal. This can be done painlessly in Overleaf, for example. Your project should build on arXiv without issue.
+
+## `allrunes`
+
+Documentation for `allrunes` can be found [here](https://ctan.org/pkg/allrunes?lang=en). The only difference in this version is that the constant `\swdefault` has been renamed to `\swdefaultpatch`.
