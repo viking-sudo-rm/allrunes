@@ -1,4 +1,4 @@
-> Did you ever want to typeset runic characters in your arXiv papers? Now you can!
+> Have you ever wanted to painlessly typeset runic characters in your arXiv papers? Now you can!
 
 # arXiv-safe `allrunes` package for LaTeX
 
