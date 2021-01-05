@@ -2,7 +2,7 @@
 
 # arXiv-safe `allrunes` package for \*TeX
 
-I recently attempted to typeset runic characters in a revision for a paper on arXiv. The `allrunes` package had worked flawlessly in the old version of the paper. However, I found that `allrunes` now breaks the new TeX distribution used by arXiv.
+I recently attempted to typeset runic characters in a revision for a paper on arXiv. The `allrunes` package had worked flawlessly in the old version of the paper. However, I found that `allrunes` now breaks the new TeX distribution used by arXiv, as documented on [StackExchange](https://tex.stackexchange.com/questions/558058/command-swdefault-already-defined).
 
 To fix this, I modified the `allrunes` source, removing the compatibility issues, and rebuilt it. This repository contains the resulting .sty file, so you don't have to do this.
 
